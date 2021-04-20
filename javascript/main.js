@@ -108,7 +108,6 @@ savebutton.addEventListener("click", () => {
         download.href = link;
         download.download = link;
         download.click();
-        document.removeChild(download);
     });
     tds.forEach((td) => {
         if(borders === false){
