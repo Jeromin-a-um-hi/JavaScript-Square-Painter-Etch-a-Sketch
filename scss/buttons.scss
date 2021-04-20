@@ -1,0 +1,19 @@
+@mixin button($colour){
+    background-color: $colour;
+    border-color: #353839;
+    border-width: 1px;
+
+    &:hover {
+        background-color: scale-color($color: $colour, $lightness: -30%);
+    }
+}
+
+
+#violet {@include button(violet)}
+#indigo {@include button(indigo)}
+#blue {@include button(blue)}
+#green {@include button(green)}
+#yellow {@include button(yellow)}
+#orange {@include button(orange)}
+#red {@include button(red)}
+.grey {@include button(#C0C0C0)}

@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Etch A Sketch Odin Project</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.scss/style.css"/>
+    </head>
+    <body>
+        <h1>Square Painter!</h1>
+
+        <div id="painter">
+            <div id="sizepluscolour">
+                <div id="findcanvassize">
+                    <form id="canvassize">
+                        <input type="number" id="size" name="size" placeholder="Resolution Max = 92" max="92"></input>
+                    </form>
+                    <button type="button" form="canvassize" value="Change" class="grey">Change Resolution</button>
+                </div>
+                <ul id="thelist">
+                    <li><button id="violet" type="button" class="btns1"></button></li>
+                    <li><button id="indigo" type="button" class="btns1"></button></li>
+                    <li><button id="blue" type="button" class="btns1"></button></li>
+                    <li><button id="green" type="button" class="btns1"></button></li>
+                    <li><button id="yellow" type="button" class="btns1"></button></li>
+                    <li><button id="orange" type="button" class="btns1"></button></li>
+                    <li><button id="red" type="button" class="btns1"></button></li>
+                </ul>
+            </div>
+            <div id="canvas">
+                <table id="drawcanvas" draggable="false">
+                    
+                </table>
+            </div><br>
+            <div id ="end">
+                <button id="Reset" type="button" class="grey">Reset</button>
+                <button id="Toggle" type="button" class="grey">Toggle Boxes</button>
+                <button id="Save" type="button" class="grey">Save To Computer</button>
+            </div>
+        </div>
+        
+        <script src="javascript/main.js"></script>
+        <script src="html2canvas/dist/html2canvas.js"></script>
+    </body>
+</html>

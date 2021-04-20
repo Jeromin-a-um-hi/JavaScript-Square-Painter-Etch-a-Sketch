@@ -1,0 +1,19 @@
+@media all and (max-width: 700px) {
+    ul {
+        justify-content: center !important;
+    }
+    h1 {
+        color: blue;
+    }
+    #sizepluscolour {
+        flex-direction: column !important;
+        padding-right: 0px !important;
+    }
+}
+
+@media all and (max-width: 500px) {
+    #canvas {
+        height: 42vh !important;
+        width: 42vh !important;
+    }
+}

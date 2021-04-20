@@ -1,0 +1,170 @@
+#violet {
+  background-color: violet;
+  border-color: #353839;
+  border-width: 1px;
+}
+#violet:hover {
+  background-color: #e121e1;
+}
+
+#indigo {
+  background-color: indigo;
+  border-color: #353839;
+  border-width: 1px;
+}
+#indigo:hover {
+  background-color: #35005b;
+}
+
+#blue {
+  background-color: blue;
+  border-color: #353839;
+  border-width: 1px;
+}
+#blue:hover {
+  background-color: #0000b3;
+}
+
+#green {
+  background-color: green;
+  border-color: #353839;
+  border-width: 1px;
+}
+#green:hover {
+  background-color: #005a00;
+}
+
+#yellow {
+  background-color: yellow;
+  border-color: #353839;
+  border-width: 1px;
+}
+#yellow:hover {
+  background-color: #b3b300;
+}
+
+#orange {
+  background-color: orange;
+  border-color: #353839;
+  border-width: 1px;
+}
+#orange:hover {
+  background-color: #b37400;
+}
+
+#red {
+  background-color: red;
+  border-color: #353839;
+  border-width: 1px;
+}
+#red:hover {
+  background-color: #b30000;
+}
+
+.grey {
+  background-color: #C0C0C0;
+  border-color: #353839;
+  border-width: 1px;
+}
+.grey:hover {
+  background-color: #868686;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 2vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: calc(1vw + 22px);
+}
+
+#painter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#painter #sizepluscolour {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#painter #sizepluscolour #findcanvassize {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 40px;
+  padding-right: 1em;
+}
+#painter #sizepluscolour #findcanvassize button {
+  height: 40px;
+}
+#painter #sizepluscolour #findcanvassize #canvassize input {
+  height: 40px;
+  border: solid;
+  border-color: #353839;
+  border-width: 1px;
+}
+#painter #sizepluscolour ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-inline-start: 0px;
+}
+#painter #sizepluscolour ul li {
+  list-style: none;
+}
+#painter #sizepluscolour ul li button {
+  width: 45px;
+  height: 40px;
+}
+#painter #canvas {
+  width: 60vh;
+  height: 60vh;
+  border: solid;
+  border-width: 4px;
+  padding: 2px;
+}
+#painter #canvas #drawcanvas {
+  width: 100%;
+  height: 100%;
+  border-spacing: 0px;
+}
+#painter #canvas #drawcanvas tr {
+  -ms-grid-row-span: auto;
+  width: fit-content;
+  height: fit-content;
+}
+#painter #canvas #drawcanvas tr td {
+  column-span: auto;
+  width: fit-content;
+  height: fit-content;
+}
+
+.borders {
+  border: dotted;
+  border-width: 1px;
+}
+
+@media all and (max-width: 700px) {
+  ul {
+    justify-content: center !important;
+  }
+
+  h1 {
+    color: blue;
+  }
+
+  #sizepluscolour {
+    flex-direction: column !important;
+    padding-right: 0px !important;
+  }
+}
+@media all and (max-width: 500px) {
+  #canvas {
+    height: 42vh !important;
+    width: 42vh !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
